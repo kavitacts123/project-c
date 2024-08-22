@@ -1,6 +1,149 @@
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* darkmode */
+.dark-theme .recently-joined {
+  background-color: #072944;
+}
+
+.light-theme .recently-joined {
+  background-color: #092E01;
+}
+
+.light-theme .works {
+  background-color: #092E01;
+}
+
+.dark-theme .works {
+  background-color: #072944;
+}
+
+.light-theme .works-1 {
+  background-color: #092E01;
+}
+
+.dark-theme .works-1 {
+  background-color: #072944;
+}
+
+.light-theme #footer {
+  background-color: #092E01;
+}
+
+.light-theme .club {
+  background-image: url('player-6.jpeg');
+}
+
+.dark-theme .club {
+  background-image: url('dark-club.svg');
+}
+
+.light-theme .overlay {
+  background-color: black;
+}
+
+.dark-theme .overlay {
+  background-color: #072944;
+}
+
+.dark-theme .theme_btn span {
+  background-color: #BDE34F;
+}
+
+.dark-theme .joined-btn button.btn {
+  color: #072944;
+  border: 1px solid #BDE34F;
+  background-color: white;
+}
+
+.light-theme .joined-btn button.btn {
+  color: #E05263;
+  border: 1px solid #E05263;
+  background-color: white;
+}
+
+.light-theme .club button {
+  background-image: linear-gradient(45deg, #6FB95D, #236115);
+  border: 3px solid #cdaa15;
+  color: white;
+}
+
+.dark-theme .club button {
+  background-image: linear-gradient(45deg, #EFFFC1, #BDE34F);
+  border: 4px solid #cdaa15;
+  color: black;
+}
+
+.dark-theme .vector-img {
+  filter: brightness(0);
+}
+
+.light-theme .form-select {
+  border: 1px solid #E05263;
+}
+
+.dark-theme .form-select {
+  border: 1px solid #BDE34F;
+}
+
+.light-theme button.btn.btn-success.active-btn {
+  background-image: linear-gradient(45deg, #6FB95D, #236115);
+  border: 1px solid #175B07;
+}
+
+.dark-theme button.btn.btn-success.active-btn {
+  background-color: #BDE34F;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .work-text {
+  color: white;
+  opacity: 30%;
+}
+
+.dark-theme .work-text.active {
+  color: white;
+  opacity: 1;
+}
+
+.light-theme .progress_btn {
+  color: #175B07;
+}
+
+.light-theme .work-text a {
+  color: #175B07;
+}
+
+.dark-theme .number p {
+  background-color: #BDE34F;
+}
+
+.light-theme .number p {
+  background-color: #175B07;
+}
+
+.light-theme .banner-btn .btn {
+  color: white;
+}
+
+.dark-theme .banner-btn .btn {
+  color: black;
+}
+
+.dark-theme .login-btn {
+  color: black;
+}
+
+.light-theme .login-btn {
+  color: white;
+}
+
+.dark-theme .ms-2 {
+  margin-left: 0.5rem !important;
+  filter: brightness(0);
+}
+
+/* darkmode */
 body {
   font-family: "Libre Franklin", sans-serif;
 }
@@ -1019,6 +1162,9 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 991px) {
+  .dark-theme .ms-2 {
+    filter: brightness(0) invert(1);
+  }
   .page-sidebar {
     width: 100%;
     padding: 30px;
@@ -1026,6 +1172,20 @@ input:checked + .slider:before {
     opacity: 0;
     transform: translateX(0);
     z-index: 100;
+  }
+  .dark-theme .slider.round {
+    border-radius: 34px;
+    background-color: #BDE34F;
+  }
+  .light-theme .sidebar {
+    background-color: #092E01;
+  }
+  .dark-theme .sidebar {
+    background-color: #072944;
+  }
+  .dark-theme .work-text {
+    color: white;
+    opacity: 1;
   }
   .page-container {
     width: 100% !important;
