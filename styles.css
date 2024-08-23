@@ -1165,6 +1165,12 @@ input:checked + .slider:before {
   .dark-theme .ms-2 {
     filter: brightness(0) invert(1);
   }
+  .light-theme .number p {
+    background-color: #6FB95D;
+  }
+  .dark-theme .number p {
+    background-color: #BDE34F;
+  }
   .page-sidebar {
     width: 100%;
     padding: 30px;
