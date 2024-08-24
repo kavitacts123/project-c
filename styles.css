@@ -39,15 +39,11 @@
 }
 
 .light-theme .overlay {
-  background-color: black;
+  background: linear-gradient(0deg, #092E01, transparent);
 }
 
 .dark-theme .overlay {
-  background-color: #072944;
-}
-
-.dark-theme .theme_btn span {
-  background-color: #BDE34F;
+  background: linear-gradient(0deg, #072944, transparent);
 }
 
 .dark-theme .joined-btn button.btn {
@@ -64,13 +60,13 @@
 
 .light-theme .club button {
   background-image: linear-gradient(45deg, #6FB95D, #236115);
-  border: 3px solid #cdaa15;
+  border: 5px solid #cdaa15;
   color: white;
 }
 
 .dark-theme .club button {
   background-image: linear-gradient(45deg, #EFFFC1, #BDE34F);
-  border: 4px solid #cdaa15;
+  border: 5px solid #cdaa15;
   color: black;
 }
 
@@ -128,6 +124,7 @@
 
 .dark-theme .banner-btn .btn {
   color: black;
+  background-color: #BDE34F;
 }
 
 .dark-theme .login-btn {
@@ -141,6 +138,23 @@
 .dark-theme .ms-2 {
   margin-left: 0.5rem !important;
   filter: brightness(0);
+}
+
+.light-theme .modal-content {
+  background: radial-gradient(circle at 100% 0%, #092E01, #092E01);
+  color: white;
+}
+
+.light-theme .modal-content p {
+  color: white;
+}
+
+.light-theme .modal-footer a.btn-primary {
+  background: linear-gradient(45deg, #6FB95D, #236115);
+}
+
+.light-theme .banner-btn a.btn-primary {
+  background-color: #E05263;
 }
 
 /* darkmode */
@@ -1171,6 +1185,12 @@ input:checked + .slider:before {
   .dark-theme .number p {
     background-color: #BDE34F;
   }
+  .dark-theme .work-text.active .number p {
+    background-color: #BDE34F;
+  }
+  .light-theme .work-text.active .number p {
+    background-color: #175B07;
+  }
   .page-sidebar {
     width: 100%;
     padding: 30px;
@@ -1664,9 +1684,8 @@ a {
   border-radius: 50%;
 }
 
-.dark-theme a.btn-primary {
-  background: #BDE34F !important;
-  border: #BDE34F !important;
+.dark-theme .modal-footer a.btn-primary {
+  background: linear-gradient(45deg, #EFFFC1, #BDE34F);
 }
 
 .form-check-input[type=checkbox] {
@@ -2512,10 +2531,6 @@ input:checked + .slider:before {
 
 .dark-theme .bgprimary {
   background-color: #BDE34F !important;
-}
-
-.dark-theme .overlay {
-  opacity: 40% !important;
 }
 
 .dark-theme #eye-icon path {
