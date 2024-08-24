@@ -153,6 +153,23 @@
   background: linear-gradient(45deg, #6FB95D, #236115);
 }
 
+.light-theme .btn.btn-primary.d-block {
+  background: linear-gradient(45deg, #6FB95D, #236115);
+  border: none;
+}
+
+.dark-theme .btn.btn-primary.d-block {
+  color: black;
+}
+
+.dark-theme input:checked + .slider {
+  background-color: #BDE34F;
+}
+
+.light-theme input:checked + .slider {
+  background-color: #e05263;
+}
+
 .light-theme .banner-btn a.btn-primary {
   background-color: #E05263;
 }
@@ -1686,6 +1703,11 @@ a {
 
 .dark-theme .modal-footer a.btn-primary {
   background: linear-gradient(45deg, #EFFFC1, #BDE34F);
+  color: black;
+}
+
+.light-theme .model-footer .btn.btn-primary.d-block {
+  background: linear-gradient(45deg, #6FB95D, #236115);
 }
 
 .form-check-input[type=checkbox] {
@@ -2464,7 +2486,6 @@ input:checked + .slider:before {
 
 .dark-theme .modal-btn .socail_btn {
   border: 1px solid #BDE34F !important;
-  color: #fff !important;
 }
 
 .dark-theme .register {
@@ -2472,7 +2493,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme .forgot_btn {
-  color: #4379EE !important;
+  color: #BDE34F !important;
 }
 
 .dark-theme svg.login-logo path {
@@ -2490,6 +2511,10 @@ input:checked + .slider:before {
 .dark-theme .form-check-input:checked {
   background-color: #BDE34F !important;
   border-color: #BDE34F !important;
+}
+
+.dark-theme .forget-password svg path {
+  fill: #BDE34F !important;
 }
 
 .dark-theme .card-tabs .nav-tabs .nav-link {
