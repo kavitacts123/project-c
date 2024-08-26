@@ -170,6 +170,58 @@
   background-color: #e05263;
 }
 
+.light-theme span.dark-text {
+  display: none;
+}
+
+.dark-theme span.light-text {
+  display: none;
+}
+
+.light-theme .create-account.d-block {
+  background: linear-gradient(45deg, #6FB95D, #236115);
+  color: white;
+}
+
+.dark-theme .create-account.d-block {
+  background: linear-gradient(45deg, #EFFFC1, #BDE34F);
+  color: black;
+}
+
+.dark-theme .slider {
+  background-color: #BDE34F;
+}
+
+.dark-theme .check-resister.active input#ManualInput {
+  /* border-color: pink; */
+  border: 5px solid #BDE34F;
+}
+
+.light-theme .check-resister.active input#ManualInput {
+  /* border-color: pink; */
+  border: 5px solid #E05263;
+}
+
+.dark-theme .check-resister.active input#AutomaticInput {
+  /* border-color: pink; */
+  border: 5px solid #BDE34F;
+}
+
+.light-theme .check-resister.active input#AutomaticInput {
+  /* border-color: pink; */
+  border: 5px solid #E05263;
+}
+
+.dark-theme .check-resister.active input#scoutRole {
+  /* border-color: pink; */
+  border: 5px solid #BDE34F;
+}
+
+.light-theme .check-resister.active input#scoutRole {
+  /* border-color: pink; */
+  border: 5px solid #E05263;
+}
+
 .light-theme .banner-btn a.btn-primary {
   background-color: #E05263;
 }
@@ -1204,9 +1256,6 @@ input:checked + .slider:before {
   }
   .dark-theme .work-text.active .number p {
     background-color: #BDE34F;
-  }
-  .light-theme .work-text.active .number p {
-    background-color: #175B07;
   }
   .page-sidebar {
     width: 100%;
