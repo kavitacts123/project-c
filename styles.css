@@ -1257,6 +1257,12 @@ input:checked + .slider:before {
   .dark-theme .work-text.active .number p {
     background-color: #BDE34F;
   }
+  .light-theme :checked + .slider {
+    background-color: #E05263 !important;
+  }
+  body.navbar-expanded .flag-image {
+    display: none;
+  }
   .page-sidebar {
     width: 100%;
     padding: 30px;
