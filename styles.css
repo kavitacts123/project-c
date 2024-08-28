@@ -2743,7 +2743,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: -6px;
+    left: 0;
     bottom: 0;
   }
   .notification_dropdown a svg {
