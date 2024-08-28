@@ -50,6 +50,16 @@
   border: 2px solid #ccc;
 }
 
+.light-theme .slider:before {
+  position: absolute;
+  content: "";
+  height: 33px;
+  width: 33px;
+  left: 0px;
+  bottom: 0px;
+  transition: 0.4s;
+}
+
 .dark-theme .form-select {
   border: 1px solid #BDE34F;
 }
@@ -81,7 +91,7 @@
 
 .light-theme .check-resister {
   border-color: #6FB95D;
-  border: 1px solid;
+  border: 1px solid #6FB95D;
 }
 
 .check-resister .form-check-label span {
@@ -96,8 +106,25 @@
   color: white;
 }
 
+.light-theme .btn-close {
+  filter: brightness(0) invert(1);
+}
+
+.dark-theme .btn-close {
+  filter: none;
+}
+
 .light-theme .work-text.active .number p {
   background-color: #6FB95D;
+}
+
+.light-theme .form-check-input:checked {
+  background-color: #236115;
+  border-color: #236115;
+}
+
+.light-theme .navbar-nav .nav-link.active::after {
+  background-color: #092E01; /* The color of the line */
 }
 
 .light-theme .modal-content {
@@ -1096,13 +1123,19 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .dashboard-title {
     margin-right: 3%;
   }
   .switch {
     width: 50px;
     height: 25px;
+  }
+  .light-theme .slider:before {
+    height: 28px;
+    width: 28px;
+    left: 0px;
+    bottom: 0px;
   }
   .slider:before {
     height: 23px;
@@ -1148,6 +1181,12 @@ input:checked + .slider:before {
   }
   body.navbar-expanded .flag-image {
     display: none;
+  }
+  .light-theme .slider:before {
+    height: 27.5px;
+    width: 26px;
+    left: 0px;
+    bottom: 0px;
   }
   .page-sidebar {
     width: 100%;
@@ -1279,6 +1318,14 @@ input:checked + .slider:before {
     border-radius: 15px;
   }
 }
+@media (max-width: 425px) {
+  .slider:before {
+    height: 26.7px;
+    width: 26px;
+    left: 0px;
+    bottom: 0px;
+  }
+}
 @media (max-width: 768px) {
   .slider {
     position: absolute;
@@ -1373,6 +1420,14 @@ input:checked + .slider:before {
     min-height: 45px !important;
   }
 }
+@media (max-width: 376px) {
+  .light-theme .slider:before {
+    height: 27px;
+    width: 26px;
+    left: 0px;
+    bottom: 0px;
+  }
+}
 .messanger-selector .mdc-evolution-chip-set__chips {
   align-items: center !important;
 }
@@ -1414,6 +1469,16 @@ input:checked + .slider:before {
   position: relative;
   background: #0C3453;
   font-family: "Libre Franklin", sans-serif !important;
+}
+
+.dark-theme .slider:before {
+  position: absolute;
+  content: "";
+  height: 31px;
+  width: 33px;
+  left: -2px;
+  bottom: 0px;
+  transition: 0.4s;
 }
 
 .dark-theme .mb-0 {
@@ -1491,18 +1556,9 @@ input:checked + .slider:before {
   filter: brightness(0);
 }
 
-.dark-theme .btn.btn-primary.d-block {
-  color: #072944;
-}
-
 .dark-theme input:checked + .slider {
   background-color: #BDE34F;
   border: 2px solid #BDE34E;
-}
-
-.dark-theme .create-account.d-block {
-  background: linear-gradient(45deg, #EFFFC1, #BDE34F);
-  color: #072944;
 }
 
 .dark-theme :checked + .slider:before {
@@ -1510,9 +1566,20 @@ input:checked + .slider:before {
   background-color: white;
 }
 
+.dark-theme .btn.btn-primary.d-block {
+  color: #072944;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dark-theme .form-check-input:checked {
+  background-color: #bde34f;
+  border-color: #bde34f;
+}
+
 .dark-theme .slider {
-  background-color: #ccc;
-  border: 2px solid #ccc;
+  background-color: #bde34f;
+  border: 2px solid #bde34f;
 }
 
 .dark-theme .slider:before {
@@ -1534,13 +1601,12 @@ input:checked + .slider:before {
   border: 5px solid #BDE34F;
 }
 
-.form-check-input:checked {
-  background-color: transparent;
-  border-color: transparent;
-}
-
 .dark-theme .border-btn {
   background-image: linear-gradient(45deg, #C2A64A, #A77A2E);
+}
+
+.dark-theme .navbar-nav .nav-link.active::after {
+  background-color: #bde34f; /* The color of the line */
 }
 
 ul,
@@ -2003,17 +2069,17 @@ a {
   height: 34px;
 }
 
-.switch input {
+.dark-theme .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.slider.round {
+.dark-theme .slider.round {
   border-radius: 34px;
 }
 
-.slider {
+.dark-theme .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -2023,17 +2089,17 @@ a {
   transition: 0.4s;
 }
 
-.slider.round:before {
+.dark-theme .slider.round:before {
   border-radius: 50%;
 }
 
-.slider:before {
+.dark-theme .slider:before {
   position: absolute;
   content: "";
   height: 33px;
   width: 33px;
-  left: 0px;
-  bottom: 0px;
+  left: -1px;
+  bottom: -1px;
   transition: 0.4s;
 }
 
@@ -2553,6 +2619,12 @@ input:checked + .slider:before {
   color: #85b1d3;
 }
 
+.dark-theme .create-account.d-block {
+  background: linear-gradient(45deg, #EFFFC1, #BDE34F);
+  color: #072944;
+  font-weight: 700;
+}
+
 .dark-theme .check-resister.active {
   border-color: #BDE34F !important;
 }
@@ -2659,7 +2731,7 @@ input:checked + .slider:before {
   color: #ffffff !important;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .dashboard-title {
     margin-right: 3%;
   }
@@ -2670,6 +2742,12 @@ input:checked + .slider:before {
   .slider:before {
     height: 23px;
     width: 23px;
+  }
+  .dark-theme .slider:before {
+    height: 27px;
+    width: 27px;
+    left: -6px;
+    bottom: 0;
   }
   .notification_dropdown a svg {
     width: 20px;
@@ -2780,6 +2858,10 @@ input:checked + .slider:before {
     transform: translateX(0);
     z-index: 100;
   }
+  .dark-theme .ms-2 {
+    margin-left: 0.5rem !important;
+    filter: brightness(0) invert(1);
+  }
   .page-container {
     width: 100% !important;
     margin: 0 !important;
@@ -2851,6 +2933,14 @@ input:checked + .slider:before {
   }
   .page-content {
     padding: 0px 10px;
+  }
+}
+@media (max-width: 575px) {
+  .dark-theme .slider:before {
+    height: 27px;
+    width: 27px;
+    left: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 425px) {
@@ -2935,7 +3025,7 @@ input:checked + .slider:before {
     width: 300px !important;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .navbar-expand .navbar-nav .notification-box {
     position: absolute !important;
     top: 54px !important;
@@ -2944,6 +3034,12 @@ input:checked + .slider:before {
   .notification_dropdown .notification-box {
     padding: 20px 0px !important;
     width: 360px !important;
+  }
+  .dark-theme .slider:before {
+    height: 25.8px;
+    width: 27px;
+    left: 0;
+    bottom: 0;
   }
 }
 @media (max-width: 768px) {
