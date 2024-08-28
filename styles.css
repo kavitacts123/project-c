@@ -2880,6 +2880,10 @@ input:checked + .slider:before {
   .right-sidebar {
     display: none;
   }
+  .dark-theme .work-text {
+    color: white;
+    opacity: 1;
+  }
   .sidebar-menu {
     display: block !important;
   }
