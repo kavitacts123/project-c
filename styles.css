@@ -55,7 +55,7 @@
   content: "";
   height: 33px;
   width: 33px;
-  left: 0px;
+  left: -26px;
   bottom: 0px;
   transition: 0.4s;
 }
@@ -1476,10 +1476,10 @@ input:checked + .slider:before {
 .dark-theme .slider:before {
   position: absolute;
   content: "";
-  height: 31px;
+  height: 33px;
   width: 33px;
-  left: -2px;
-  bottom: 0px;
+  left: 24px;
+  bottom: -1px;
   transition: 0.4s;
 }
 
