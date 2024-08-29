@@ -6,6 +6,10 @@
   background-color: #092E01;
 }
 
+.light-theme .navbar-nav .nav-link.active::after {
+  background-color: #E05263;
+}
+
 .light-theme .works {
   background-color: #092E01;
 }
@@ -37,10 +41,6 @@
   color: white;
 }
 
-.light-theme .form-select {
-  border: 1px solid #E05263;
-}
-
 .light-theme .dark-vector-img {
   display: none;
 }
@@ -58,10 +58,6 @@
   left: 0px;
   bottom: 0px;
   transition: 0.4s;
-}
-
-.dark-theme .form-select {
-  border: 1px solid #BDE34F;
 }
 
 .light-theme button.btn.btn-success.active-btn {
@@ -124,8 +120,15 @@
 }
 
 .light-theme .navbar-nav .nav-link.active::after {
-  background-color: #092E01;
-  /* The color of the line */
+  background-color: #E05263;
+}
+
+.light-theme img.dark-button {
+  display: none;
+}
+
+.light-theme .form-select {
+  border: 2px solid #E05263;
 }
 
 .light-theme .modal-content {
@@ -1407,7 +1410,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 425px) {
   .light-theme .slider:before {
-    height: 27.5px;
+    height: 26.7px;
     width: 26px;
     left: 0px;
     bottom: 0px;
@@ -1473,6 +1476,18 @@ input:checked + .slider:before {
   position: relative;
   background: #0C3453;
   font-family: "Libre Franklin", sans-serif !important;
+}
+
+.dark-theme .navbar-nav .nav-link.active::after {
+  background-color: #BDE34E;
+}
+
+.dark-theme .light-button {
+  display: none;
+}
+
+.dark-theme .form-select {
+  border: 2px solid #BDE34F;
 }
 
 .dark-theme .slider:before {
@@ -1607,11 +1622,6 @@ input:checked + .slider:before {
 
 .dark-theme .border-btn {
   background-image: linear-gradient(45deg, #C2A64A, #A77A2E);
-}
-
-.dark-theme .navbar-nav .nav-link.active::after {
-  background-color: #bde34f;
-  /* The color of the line */
 }
 
 ul,
@@ -3065,10 +3075,6 @@ input:checked + .slider:before {
     width: 27px;
     bottom: 0;
   }
-  .switch1 {
-    display: flex;
-    margin-left: 0;
-  }
   .dark-vector-img {
     margin-top: 11px;
     margin-left: 6px;
@@ -3079,6 +3085,11 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 425px) {
+  .dark-theme .slider:before {
+    height: 26px;
+    width: 27px;
+    bottom: 0;
+  }
   .dark-theme .bg_pending {
     background: #fcbe2d;
     padding: 3px 10px;
@@ -3146,11 +3157,6 @@ input:checked + .slider:before {
   .notification_dropdown .notification-box {
     padding: 20px 0px !important;
     width: 360px !important;
-  }
-  .dark-theme .slider:before {
-    height: 27.8px;
-    width: 27px;
-    bottom: 0;
   }
 }
 @media (max-width: 321px) {
