@@ -3139,7 +3139,7 @@ input:checked + .slider:before {
     width: 360px !important;
   }
   .dark-theme .slider:before {
-    height: 26.8px;
+    height: 27.8px;
     width: 27px;
     left: 20px;
     bottom: 0;
