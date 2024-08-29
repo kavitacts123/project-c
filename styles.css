@@ -1450,7 +1450,15 @@ input:checked + .slider:before {
     border-radius: 15px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 376px) {
+  .light-theme .slider:before {
+    height: 27.5px;
+    width: 26px;
+    left: -21px;
+    bottom: 0px;
+  }
+}
+@media (max-width: 321px) {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
@@ -3106,34 +3114,13 @@ input:checked + .slider:before {
     padding: 0px !important;
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 376px) {
   .dark-theme .slider:before {
     height: 27.8px;
     width: 27px;
     left: 20px;
     bottom: 0;
   }
-}
-@media (max-width: 321px) {
-  .navbar-expand .navbar-nav .notification-box {
-    position: absolute !important;
-    top: 54px !important;
-    right: -100px !important;
-  }
-  .notification_dropdown .notification-box {
-    padding: 20px 0px !important;
-    width: 300px !important;
-  }
-  .dark-vector-img img {
-    height: 16px;
-    width: 16px;
-  }
-  .dark-vector-img {
-    margin-top: 10px;
-    margin-left: 6px;
-  }
-}
-@media (max-width: 376px) {
   .navbar-expand .navbar-nav .notification-box {
     position: absolute !important;
     top: 54px !important;
@@ -3162,6 +3149,31 @@ input:checked + .slider:before {
   }
   .bottom_box {
     min-height: 45px !important;
+  }
+}
+@media (max-width: 321px) {
+  .dark-theme .slider:before {
+    height: 27.8px;
+    width: 27px;
+    left: 20px;
+    bottom: 0;
+  }
+  .navbar-expand .navbar-nav .notification-box {
+    position: absolute !important;
+    top: 54px !important;
+    right: -100px !important;
+  }
+  .notification_dropdown .notification-box {
+    padding: 20px 0px !important;
+    width: 300px !important;
+  }
+  .dark-vector-img img {
+    height: 16px;
+    width: 16px;
+  }
+  .dark-vector-img {
+    margin-top: 10px;
+    margin-left: 6px;
   }
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
