@@ -1409,7 +1409,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: -21px;
+    left: -19px;
     bottom: 0px;
   }
   .slider {
