@@ -1243,12 +1243,8 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 28px;
     width: 28px;
-    left: 0px;
+    left: -25px;
     bottom: 0px;
-  }
-  .slider:before {
-    height: 23px;
-    width: 23px;
   }
   .notification_dropdown a svg {
     width: 20px;
@@ -1289,7 +1285,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: 0px;
+    left: -25px;
     bottom: 0px;
   }
   .page-sidebar {
@@ -1410,6 +1406,12 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 425px) {
+  .light-theme .slider:before {
+    height: 27.5px;
+    width: 26px;
+    left: -21px;
+    bottom: 0px;
+  }
   .slider {
     position: absolute;
     cursor: pointer;
@@ -1446,22 +1448,6 @@ input:checked + .slider:before {
     font-size: 12px !important;
     font-weight: 600 !important;
     border-radius: 15px;
-  }
-}
-@media (max-width: 425px) {
-  .slider:before {
-    height: 26.7px;
-    width: 26px;
-    left: 0px;
-    bottom: 0px;
-  }
-}
-@media (max-width: 376px) {
-  .light-theme .slider:before {
-    height: 27px;
-    width: 26px;
-    left: 0px;
-    bottom: 0px;
   }
 }
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -2910,7 +2896,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: -6px;
+    left: 20px;
     bottom: 0;
   }
   .notification_dropdown a svg {
@@ -2945,6 +2931,12 @@ input:checked + .slider:before {
     opacity: 0;
     transform: translateX(0);
     z-index: 100;
+  }
+  .dark-theme .slider:before {
+    height: 27px;
+    width: 27px;
+    left: 20px;
+    bottom: 0;
   }
   .dark-theme .ms-2 {
     margin-left: 0.5rem !important;
@@ -3035,7 +3027,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 0;
+    left: 20px;
     bottom: 0;
   }
   .dark-vector-img {
