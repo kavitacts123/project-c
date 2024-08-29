@@ -2103,16 +2103,6 @@ a {
   border-radius: 50%;
 }
 
-.dark-theme .slider:before {
-  position: absolute;
-  content: "";
-  height: 33px;
-  width: 33px;
-  left: -1px;
-  bottom: -1px;
-  transition: 0.4s;
-}
-
 input:checked + .slider:before {
   transform: translateX(26px);
 }
