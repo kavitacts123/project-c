@@ -2912,7 +2912,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 0px;
+    left: -6px;
     bottom: 0;
   }
   .notification_dropdown a svg {
@@ -2951,8 +2951,8 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 0px;
     bottom: 0;
+    left: -7px;
   }
   .dark-theme .ms-2 {
     margin-left: 0.5rem !important;
@@ -3032,6 +3032,12 @@ input:checked + .slider:before {
   .navbar-search {
     display: none;
   }
+  .dark-theme .slider:before {
+    height: 27px;
+    width: 27px;
+    left: 0;
+    bottom: 0;
+  }
   .dashboard-title h6 {
     font-size: 14px;
   }
@@ -3057,8 +3063,11 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 0px;
     bottom: 0;
+  }
+  .switch1 {
+    display: flex;
+    margin-left: 0;
   }
   .dark-vector-img {
     margin-top: 11px;
@@ -3141,15 +3150,12 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27.8px;
     width: 27px;
-    left: 0px;
     bottom: 0;
   }
 }
 @media (max-width: 321px) {
   .dark-theme .slider:before {
     height: 27.8px;
-    width: 27px;
-    left: 0px;
     bottom: 0;
   }
   .navbar-expand .navbar-nav .notification-box {
