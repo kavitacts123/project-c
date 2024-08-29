@@ -55,7 +55,7 @@
   content: "";
   height: 33px;
   width: 33px;
-  left: -26px;
+  left: 0px;
   bottom: 0px;
   transition: 0.4s;
 }
@@ -1243,7 +1243,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 28px;
     width: 28px;
-    left: -25px;
+    left: 0px;
     bottom: 0px;
   }
   .notification_dropdown a svg {
@@ -1285,7 +1285,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: -25px;
+    left: 0;
     bottom: 0px;
   }
   .page-sidebar {
@@ -1409,7 +1409,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: -19px;
+    left: 0px;
     bottom: 0px;
   }
   .slider {
@@ -1454,7 +1454,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: -21px;
+    left: 0px;
     bottom: 0px;
   }
 }
@@ -1462,7 +1462,7 @@ input:checked + .slider:before {
   .light-theme .slider:before {
     height: 27.5px;
     width: 26px;
-    left: -21px;
+    left: 0px;
     bottom: 0px;
   }
 }
@@ -1480,7 +1480,7 @@ input:checked + .slider:before {
   content: "";
   height: 33px;
   width: 33px;
-  left: 24px;
+  left: 0px;
   bottom: -1px;
   transition: 0.4s;
 }
@@ -2912,7 +2912,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 20px;
+    left: 0px;
     bottom: 0;
   }
   .notification_dropdown a svg {
@@ -2951,7 +2951,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 20px;
+    left: 0px;
     bottom: 0;
   }
   .dark-theme .ms-2 {
@@ -3057,7 +3057,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27px;
     width: 27px;
-    left: 20px;
+    left: 0px;
     bottom: 0;
   }
   .dark-vector-img {
@@ -3141,7 +3141,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27.8px;
     width: 27px;
-    left: 20px;
+    left: 0px;
     bottom: 0;
   }
 }
@@ -3149,7 +3149,7 @@ input:checked + .slider:before {
   .dark-theme .slider:before {
     height: 27.8px;
     width: 27px;
-    left: 20px;
+    left: 0px;
     bottom: 0;
   }
   .navbar-expand .navbar-nav .notification-box {
