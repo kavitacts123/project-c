@@ -1481,7 +1481,7 @@ input:checked + .slider:before {
   height: 33px;
   width: 33px;
   left: 0px;
-  bottom: -1px;
+  bottom: 0px;
   transition: 0.4s;
 }
 
