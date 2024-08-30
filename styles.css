@@ -6,6 +6,10 @@
   background-color: #092E01;
 }
 
+.light-theme .dark-button {
+  display: none;
+}
+
 .light-theme .navbar-nav .nav-link.active::after {
   background-color: #E05263;
 }
