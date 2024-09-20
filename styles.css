@@ -2,6 +2,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* darkmode */
+.light-theme nav.navbar.navbar-expand-lg.navbar-light.sticky.scrolled {
+  background-color: #092E01;
+}
+
 .light-theme .recently-joined {
   background-color: #092E01;
 }
@@ -402,7 +406,7 @@ body {
 }
 
 .light-theme nav.navbar.navbar-expand-lg.navbar-light.sticky {
-  background-color: #092E01;
+  background-color: transparent;
 }
 
 ul,
@@ -1717,6 +1721,10 @@ input:checked + .slider:before {
   font-weight: 400;
 }
 
+.dark-theme nav.navbar.navbar-expand-lg.navbar-light.sticky.scrolled {
+  background-color: #072944;
+}
+
 .dark-theme .recently-joined {
   background-color: #072944;
 }
@@ -1789,7 +1797,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme nav.navbar.navbar-expand-lg.navbar-light.sticky {
-  background-color: #1d3b53;
+  background-color: transparent;
 }
 
 .dark-vector-img {
