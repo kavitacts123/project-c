@@ -1717,7 +1717,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme .mb-0 {
-  color: white;
+  color: #072944;
   font-weight: 400;
 }
 
