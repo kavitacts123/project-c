@@ -353,6 +353,10 @@ body {
   background: radial-gradient(circle at 1% 0%, transparent, #2B4A25);
 }
 
+.light-theme .feature-data .btn {
+  background: linear-gradient(to bottom right, #6FB95D, #236115);
+}
+
 .light-theme .btn.btn-join {
   color: white;
 }
