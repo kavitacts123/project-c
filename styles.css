@@ -357,6 +357,10 @@ body {
   background: linear-gradient(to bottom right, #6FB95D, #236115);
 }
 
+.light-theme button.page-active.active {
+  background-color: #E05263;
+}
+
 .light-theme .btn.btn-join {
   color: white;
 }
@@ -1704,6 +1708,10 @@ input:checked + .slider:before {
 
 .dark-theme .form-select {
   border: 2px solid #BDE34F;
+}
+
+.dark-theme button.page-active.active {
+  background-color: #BDE34F;
 }
 
 .dark-theme .slider:before {
