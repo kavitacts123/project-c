@@ -1709,7 +1709,7 @@ input:checked + .slider:before {
 .dark-theme .slider:before {
   position: absolute;
   content: "";
-  height: 33px;
+  height: 32px;
   width: 33px;
   left: 0px;
   bottom: 0px;
@@ -3416,7 +3416,7 @@ input:checked + .slider:before {
     height: 27px;
     width: 27px;
     bottom: 0;
-    left: -7px;
+    left: -6px;
   }
   .dark-theme .ms-2 {
     margin-left: 0.5rem !important;
@@ -3540,7 +3540,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 425px) {
   .dark-theme .slider:before {
-    height: 26px;
+    height: 27px;
     width: 27px;
     bottom: 0;
   }
@@ -3600,6 +3600,13 @@ input:checked + .slider:before {
 @media (max-width: 450px) {
   .page-header {
     padding: 0px !important;
+  }
+}
+@media (max-width: 391px) {
+  .dark-theme .slider:before {
+    height: 25.5px;
+    width: 26.5px;
+    bottom: 0;
   }
 }
 @media (max-width: 376px) {
