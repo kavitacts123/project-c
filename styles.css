@@ -361,6 +361,11 @@ body {
   background-color: #E05263;
 }
 
+.light-theme label.check-resister.active {
+  border-color: #E05263;
+  border: 1px solid #E05263;
+}
+
 .light-theme .btn.btn-join {
   color: white;
 }
