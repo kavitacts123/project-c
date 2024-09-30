@@ -35,7 +35,11 @@
 }
 
 .light-theme .overlay {
-  background: linear-gradient(0deg, #092E01, transparent);
+  background: linear-gradient(to top, #092E01 10%, transparent 100%);
+}
+
+.light-theme .club-overlay {
+  background: linear-gradient(to top, transparent 80%, #092E01 100%);
 }
 
 .light-theme .joined-btn button.btn {
@@ -273,7 +277,7 @@
 }
 
 .light-theme .club_text {
-  background: radial-gradient(circle at 100% 0%, #2B4A25, transparent);
+  background: radial-gradient(circle at 13% 0%, transparent, #2B4A25);
 }
 
 .light-theme .accordion-item:first-of-type {
@@ -304,7 +308,7 @@
 }
 
 .light-theme .premium {
-  background: radial-gradient(circle at 100% 0%, #2B4A25, transparent);
+  background: radial-gradient(circle at 25% 0%, transparent, #2B4A25);
 }
 
 body {
@@ -313,7 +317,7 @@ body {
 
 .light-theme {
   position: relative;
-  background: #f0f0f0 !important;
+  background: #092E01;
   font-family: "Libre Franklin", sans-serif;
 }
 
@@ -350,10 +354,11 @@ body {
 }
 
 .light-theme .feature-box {
-  background: radial-gradient(circle at 1% 0%, transparent, #2B4A25);
+  background: radial-gradient(circle at 50% 0%, transparent, #2B4A25);
 }
 
 .light-theme .feature-data .btn {
+  border: 1px solid #175B07;
   background: linear-gradient(to bottom right, #6FB95D, #236115);
 }
 
@@ -404,6 +409,7 @@ body {
 .light-theme button {
   background-color: #E05263;
   color: white;
+  border: none;
 }
 
 .light-theme .faq {
@@ -416,6 +422,14 @@ body {
 
 .light-theme nav.navbar.navbar-expand-lg.navbar-light.sticky {
   background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #0C3453 inset !important;
+  -webkit-text-fill-color: white !important;
 }
 
 ul,
@@ -1680,7 +1694,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 376px) {
   .light-theme .slider:before {
-    height: 27.5px;
+    height: 26.8px;
     width: 26px;
     left: 0px;
     bottom: 0px;
@@ -1688,7 +1702,7 @@ input:checked + .slider:before {
 }
 @media (max-width: 321px) {
   .light-theme .slider:before {
-    height: 27.5px;
+    height: 26.8px;
     width: 26px;
     left: 0px;
     bottom: 0px;
@@ -1709,6 +1723,10 @@ input:checked + .slider:before {
 
 .dark-theme .light-button {
   display: none;
+}
+
+.dark-theme .club-overlay {
+  background: linear-gradient(to top, transparent 80%, #072944 100%);
 }
 
 .dark-theme .form-select {
@@ -1775,7 +1793,9 @@ input:checked + .slider:before {
   background-image: linear-gradient(45deg, #EFFFC1, #BDE34F);
 }
 
-.dark-theme .faq-club-button, button.faq-talent-button, button.faq-scout-button {
+.dark-theme .faq-club-button,
+button.faq-talent-button,
+button.faq-scout-button {
   color: #86AA7D;
 }
 
@@ -1955,7 +1975,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme .club_text {
-  background: radial-gradient(circle at 100% 0%, #0C3453, transparent);
+  background: radial-gradient(circle at 13% 0%, transparent, #0c3453);
 }
 
 .dark-theme .accordion-item:first-of-type {
@@ -1994,7 +2014,7 @@ input:checked + .slider:before {
 }
 
 .dark-theme .premium {
-  background: radial-gradient(circle at 100% 0%, #0C3453, transparent);
+  background: radial-gradient(circle at 18% 0%, transparent, #0c3453);
 }
 
 .dark-theme .premium-text img {
@@ -2026,7 +2046,8 @@ input:checked + .slider:before {
 }
 
 .dark-theme li::before {
-  color: #bde34f; /* Customize marker color */
+  color: #bde34f;
+  /* Customize marker color */
 }
 
 .dark-theme .feature-box {
@@ -2074,7 +2095,8 @@ input:checked + .slider:before {
 }
 
 .dark-theme .custom-radio input[type=radio]:checked + .radio-button::before {
-  background-color: #bde34f; /* Inner color when selected */
+  background-color: #bde34f;
+  /* Inner color when selected */
 }
 
 .dark-theme button {
@@ -3634,10 +3656,6 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 321px) {
-  .dark-theme .slider:before {
-    height: 27.8px;
-    bottom: 0;
-  }
   .navbar-expand .navbar-nav .notification-box {
     position: absolute !important;
     top: 54px !important;
@@ -3654,6 +3672,10 @@ input:checked + .slider:before {
   .dark-vector-img {
     margin-top: 10px;
     margin-left: 6px;
+  }
+  .dark-theme .slider:before {
+    height: 26px;
+    bottom: 0;
   }
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************!*\
